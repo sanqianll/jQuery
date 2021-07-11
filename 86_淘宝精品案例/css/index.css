@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  margin: 20px auto;
+  width: 350px;
+  height: 270px;
+  background-color: #fff;
+}
+.wrapper .left {
+  float: left;
+}
+.wrapper .left li {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ccc;
+}
+.wrapper .left li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wrapper .content {
+  float: left;
+  width: 300px;
+  height: 270px;
+}
+.wrapper .content > div {
+  display: none;
+  border: 1px solid #ccc;
+}
+.wrapper .content > div:nth-child(1) {
+  display: block;
+}
+.wrapper .content > div:nth-child(1) div {
+  background-color: red;
+}
+.wrapper .content > div:nth-child(2) div {
+  background-color: orange;
+}
+.wrapper .content > div:nth-child(3) div {
+  background-color: yellow;
+}
+.wrapper .content > div:nth-child(4) div {
+  background-color: green;
+}
+.wrapper .content > div:nth-child(5) div {
+  background-color: #08cad1;
+}
+.wrapper .content > div:nth-child(6) div {
+  background-color: blue;
+}
+.wrapper .content > div:nth-child(7) div {
+  background-color: purple;
+}
+.wrapper .content > div:nth-child(8) div {
+  background-color: white;
+}
+.wrapper .content > div:nth-child(9) div {
+  background-color: black;
+}
+.wrapper .content > div > a > div {
+  width: 298px;
+  height: 268px;
+}
+.tab {
+  margin: 20px auto;
+  width: 900px;
+  background-color: #fff;
+}
+.tab .tab_head {
+  width: 900px;
+  height: 50px;
+  background-color: #eff0ef;
+  border: 1px solid #ccc;
+}
+.tab .tab_head ul {
+  width: 700px;
+}
+.tab .tab_head ul > li {
+  float: left;
+  width: 140px;
+  text-align: center;
+  line-height: 48px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.tab .tab_head ul .current {
+  background-color: tomato;
+  color: white;
+}
+.tab .tab_con {
+  width: 900px;
+  height: 100px;
+}
+.tab .tab_con > div {
+  display: none;
+}
+.tab .tab_con > div:nth-child(1) {
+  display: block;
+}
+.warp {
+  margin: 10px auto;
+  width: 660px;
+  height: 412px;
+  background-color: #575757;
+}
+.warp li {
+  float: left;
+  margin: 10px;
+}
+.box1 {
+  width: 30px;
+  height: 30px;
+  background-color: skyblue;
+  position: absolute;
+}

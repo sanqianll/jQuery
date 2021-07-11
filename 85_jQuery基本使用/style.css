@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box1 {
+    width: 300px;
+    height: 200px;
+    background-color: skyblue;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    width: 208px;
+    height: 30px;
+}
+.nav>li{
+    float: left;
+    width: 50px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.nav li ul {
+    display: none;
+}

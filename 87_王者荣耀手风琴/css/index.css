@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.king {
+  position: relative;
+  margin: 10px auto;
+  padding: 8px 20px 0;
+  width: 732px;
+  height: 98px;
+  background: url(../images/bg.png) no-repeat;
+}
+.king .zhoumian {
+  font-weight: 700;
+  color: #a6afbc;
+}
+.king .box {
+  float: left;
+  width: 732px;
+  height: 69px;
+}
+.king .box ul li {
+  margin-right: 10px;
+  float: left;
+  height: 69px;
+}
+.king .box ul li .small {
+  border-radius: 5px;
+  width: 69px;
+  height: 69px;
+}
+.king .box ul li .large {
+  border-radius: 5px;
+  display: none;
+  width: 224px;
+  height: 69px;
+}
+.king .box ul li:nth-child(1) .small {
+  display: none;
+}
+.king .box ul li:nth-child(1) .large {
+  display: block;
+}
+.king > a {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 10px;
+  right: 15px;
+  color: #626a7a;
+}
+.king > a:hover {
+  color: slateblue;
+}
